@@ -3,12 +3,11 @@ import {
   ArrowRight,
   ExternalLink
 } from 'lucide-react';
-import { PROJECTS, SKILLS } from './constants';
-import ProjectCard from './components/ProjectCard';
-import ProjectDetail from './components/ProjectDetail';
-import AboutView from './components/AboutView';
-import RecruiterAssistant from './components/RecruiterAssistant';
-import { Project } from './types';
+import { PROJECTS, SKILLS } from './constants.tsx';
+import ProjectCard from './components/ProjectCard.tsx';
+import ProjectDetail from './components/ProjectDetail.tsx';
+import AboutView from './components/AboutView.tsx';
+import { Project } from './types.ts';
 
 const App: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -218,8 +217,6 @@ const App: React.FC = () => {
           onClose={() => setSelectedProject(null)} 
         />
       )}
-
-      <RecruiterAssistant />
     </div>
   );
 };
