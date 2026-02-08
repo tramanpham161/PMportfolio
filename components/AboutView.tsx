@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { FileText, Award, Brain, Layout, Sparkles, ExternalLink } from 'lucide-react';
 
@@ -129,7 +130,7 @@ const AboutView: React.FC<AboutViewProps> = ({ onGoToResume }) => {
       </section>
 
       {/* Professional Development & Learning Section */}
-      <section className="py-12 md:py-20 grid lg:grid-cols-12 gap-8 lg:gap-24">
+      <section className="py-12 md:py-20 grid lg:grid-cols-12 gap-8 lg:gap-24 border-b border-charcoal/10">
         <div className="lg:col-span-4">
           <h2 className="font-mono text-xs font-bold uppercase tracking-[0.4em] text-sage">Professional Development & Learning</h2>
         </div>
@@ -205,7 +206,7 @@ const AboutView: React.FC<AboutViewProps> = ({ onGoToResume }) => {
           </div>
 
           {/* Other Skills Subsection */}
-          <div className="pt-6 border-t border-charcoal/10">
+          <div className="pt-6 border-t border-charcoal/5">
             <h4 className="font-mono text-xs font-bold uppercase tracking-[0.3em] text-sage mb-6">Other Skills</h4>
             <div className="flex flex-wrap gap-x-12 gap-y-4">
               {[
@@ -224,6 +225,13 @@ const AboutView: React.FC<AboutViewProps> = ({ onGoToResume }) => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Contact/CTA */}
+      <section className="py-16 md:py-20 flex flex-col items-center text-center">
+        <h2 className="text-xl md:text-2xl font-black mb-3 tracking-tight">
+          Get in touch at <a href="mailto:tramanh.pham161@gmail.com" className="text-clay hover:underline">tramanh.pham161@gmail.com</a>
+        </h2>
       </section>
     </main>
   );
