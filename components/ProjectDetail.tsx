@@ -1,8 +1,7 @@
-
 import React from 'react';
-import { Project } from '../types';
+import { Project } from '../types.ts';
 import { X, ArrowLeft, ExternalLink, ShieldCheck } from 'lucide-react';
-import Slideshow from './Slideshow';
+import Slideshow from './Slideshow.tsx';
 
 interface ProjectDetailProps {
   project: Project;
