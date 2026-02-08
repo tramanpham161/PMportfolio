@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Project } from '../types.ts';
 import { X, ArrowLeft, ExternalLink, ShieldCheck } from 'lucide-react';
@@ -50,8 +51,8 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onClose }) => {
       </nav>
 
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-16 md:py-24">
-        {/* Project Hero Header */}
-        <div className="max-w-4xl mb-16">
+        {/* Project Hero Header - Expanded to full width container bounds */}
+        <div className="mb-16">
           <span className="font-mono text-xs font-bold uppercase tracking-[0.3em] text-sage mb-6 block">Case Study / Overview</span>
           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95] mb-4">
             {project.name}
