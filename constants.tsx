@@ -83,8 +83,8 @@ export const SKILLS: Skill[] = [
     description: 'Deeply embedded in parenting communities, I identify real pain points that often go unnoticed without lived experience.' 
   },
   { 
-    name: 'Systems & context analysis', 
-    description: 'I compare childcare, funding, and parenting systems across different cultural and policy contexts to uncover better, more resilient product approaches.' 
+    name: 'Cross-cultural systems thinking', 
+    description: 'With cross-cultural experience in Vietnam and the UK, I design adaptable, scalable solutions grounded in diverse user behaviours and expectations' 
   },
   { 
     name: 'Focused MVP thinking', 
