@@ -95,9 +95,9 @@ const App: React.FC = () => {
           <section id="about" className="grid md:grid-cols-12 border-b border-charcoal/10 scroll-mt-24">
             <div className="md:col-span-4 p-8 md:p-12 lg:p-14 border-b md:border-b-0 md:border-r border-charcoal/10 bg-white">
               <h2 className="font-mono text-[10px] font-bold uppercase tracking-[0.3em] mb-6 text-sage">How I work</h2>
-              <h3 className="text-xl md:text-2xl font-black mb-4 leading-[1.2] tracking-[0.05em] max-w-xs">Empathy as a <br/>Technical <br/>Constraint.</h3>
+              <h3 className="text-xl md:text-2xl font-black mb-4 leading-[1.2] tracking-[0.05em] max-w-xs">Designing from <br/>everyday <br/>friction.</h3>
               <p className="text-sm md:text-base text-charcoal/70 leading-relaxed font-medium max-w-xs tracking-normal">
-                My approach combines UK-based motherhood immersion with a cross-cultural lens to anticipate non-obvious parent friction.
+                I study the small, real-life parenting problems that surface through daily routines. From digital tools to physical products, I prioritise simple, affordable solutions that create immediate clarity and relief for families.
               </p>
             </div>
             <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-2 bg-[#F5F2ED]">
